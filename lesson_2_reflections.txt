@@ -1,6 +1,21 @@
 What happens when you initialize a repository? Why do you need to do it?
-    On initialize a repository create the metadata necessary to work with git.
-    And this is needed because the git system need a initial snapshot of the entire directory, to be tracked in future.
-How is the staging area different from the working directory and the repository? What value do you think it offers?
-    The difference of staging area to the working directory is the staging area store the changes what we want to save on a commit, and add safety to the process of create a commit.
+    When initializing a repository, the metadata needed to work with git is created.
+    This is necessary because the git system needs an initial snapshot of the entire directory to be crawled in the future.
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+    The storage area is the main difference, in which are stored the changes of what we want to save in a commit, adding security to the process of creating a commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+    Adding to the staging area only the files that will be affected by an specified logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+    When it is necessary fix some bug or a feature, and to work with a team. The branches make it possible to track different functionalities developments.
+
+How do the diagrams help you visualize the branch structure?
+    Showing the track off all commits with a branch, and we can see the all history of changes.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+    A marge of all commits in both branches, that are merged, and the representation in the diagram is the way to identify which commit is part of each branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+    A advantage is not to spend time on creating a unified version of the code and a disadvantage is don't control the changes of the code and just accept every change that was made.
